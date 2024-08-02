@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevator Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="lift" id="elevator">
+        <img src="./lift.jfif">
+    </div>
+
+
+
+
+    <div class="container">
+        <div class="floor4">
+            <div class="window-section">
+                <div class="window"><img src="./window.png" alt="window"></div>
+                <div class="window"><img src="./window.png" alt="window"></div>
+            </div>
+        </div>
+        <div class="floor3">
+            <div class="window-section">
+                <div class="window"><img src="./window.png" alt="window"></div>
+                <div class="window"><img src="./window.png" alt="window"></div>
+            </div>
+        </div>
+        <div class="floor2">
+            <div class="window-section">
+                <div class="window"><img src="./window.png" alt="window"></div>
+                <div class="window"><img src="./window.png" alt="window"></div>
+            </div>
+        </div>
+        <div class="floor1">
+            <div class="window-section">
+                <div class="window"><img src="./window.png" alt="window"></div>
+                <div class="window"><img src="./window.png" alt="window"></div>
+            </div>
+        </div>
+        <div class="floorG"></div>
+    </div>
+
+
+
+
+
+
+    <div class="button-container">
+        <button class="button-3d" id="btn5" onclick="groundFloor()">
+            <div class="button-top">
+                <span class="material-icons">G</span>
+            </div>
+            <div class="button-bottom"></div>
+        </button>
+
+
+        <button class="button-3d" id="btn1" onclick="firstFloor()">
+            <div class="button-top">
+                <span class="material-icons">1</span>
+            </div>
+            <div class="button-bottom"></div>
+        </button>
+
+        <button class="button-3d" id="btn2" onclick="secondFloor()">
+            <div class="button-top">
+                <span class="material-icons">2</span>
+            </div>
+            <div class="button-bottom"></div>
+        </button>
+
+        <button class="button-3d" id="btn3" onclick="thirdFloor()">
+            <div class="button-top">
+                <span class="material-icons">3</span>
+            </div>
+            <div class="button-bottom"></div>
+        </button>
+
+        <button class="button-3d" id="btn4" onclick="fourthFloor()">
+            <div class="button-top">
+                <span class="material-icons">4</span>
+            </div>
+            <div class="button-bottom"></div>
+        </button>
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
